@@ -6,7 +6,7 @@ if (fox.toLowerCase().includes("r")) {
   document.write("Showing random fox");
   var img = document.createElement("img");
   n = Math.floor(Math.random() * 123) + 1;
-  img.src = "/images/fox"+n.toString() + ".jpg"
+  img.src = "fox"+n.toString() + ".jpg"
   document.body.appendChild(img);
   success_1 = true;
   fox = n
@@ -17,7 +17,7 @@ if (isNaN(fox) == false) {
   if (fox >= 1 && fox <= 123) {
     document.write("Showing fox " + fox);
     var img = document.createElement("img");
-    img.src = "/images/fox" + fox.toString() + ".jpg";
+    img.src = "fox" + fox.toString() + ".jpg";
     document.body.appendChild(img);
     success_2 = true;
   }
